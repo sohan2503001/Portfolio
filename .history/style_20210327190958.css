@@ -29,7 +29,6 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    /*margin: 1rem 0rem 1rem 0rem;*/
 }
 
 .link-primary{
@@ -137,4 +136,3 @@ hr{
 .footer ul{
     padding-inline-start: 0px;
 }
-
