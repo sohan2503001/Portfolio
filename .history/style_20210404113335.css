@@ -11,6 +11,7 @@ body {
     margin: auto;
     max-width: 600px;
     width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRmb2xpb3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
 }
 
 hr{
@@ -126,7 +127,6 @@ hr{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-    position: relative;
 }
 
 .footer .link{
