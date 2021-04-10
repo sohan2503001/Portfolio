@@ -3,13 +3,13 @@
 :root{
     --primary-color: #EC4899;
     --dark-gray: #4B5563;
-    --off-white: #FBCFE8;
+    --off-white: #F9A8D4;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: auto;
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
 }
 

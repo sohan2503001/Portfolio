@@ -2,14 +2,14 @@
 
 :root{
     --primary-color: #EC4899;
-    --dark-gray: #4B5563;
-    --off-white: #FBCFE8;
+    --dark-gray: #F9A8D4;
+    --off-white: #d1f0fa;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: auto;
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
 }
 
