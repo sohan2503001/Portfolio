@@ -142,8 +142,7 @@ hr{
     padding-inline-start: 0px;
 }
 
-/**DarkMode**/
 .dark-mode {
     background-color: black;
     color: white;
-}
+  }
