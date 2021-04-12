@@ -152,5 +152,6 @@ hr{
     padding: 5px;
     background-color: black;
     color: white;
-    position: relative;
+    position: absolute;
+    left: 500px;
 }

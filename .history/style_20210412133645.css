@@ -152,5 +152,7 @@ hr{
     padding: 5px;
     background-color: black;
     color: white;
-    position: relative;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
