@@ -151,9 +151,6 @@ hr{
 
 /**Projects**/
 .box-contain{
-    border: 2px solid var(--primary-color);
+    border: 2px solid black;
     padding: 2rem;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    margin: 1rem 0rem;
 }
