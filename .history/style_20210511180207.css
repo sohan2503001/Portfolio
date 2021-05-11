@@ -83,6 +83,15 @@ hr{
     font-weight: bold;
 }
 
+/**Projects**/
+.box-contain{
+    border: 2px solid var(--primary-color);
+    padding: 2rem;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 1rem 0rem;
+}
+
 /**header **/
 
 .hero{
@@ -108,9 +117,8 @@ hr{
 
 /** section **/
 .section{
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 15px;
-    margin: 2rem;
 }
 
 .section h1{
@@ -130,7 +138,7 @@ hr{
 
 .footer{
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 1.3rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -149,21 +157,7 @@ hr{
     padding-inline-start: 0px;
 }
 
-/**Projects**/
-.box-contain{
-    border: 2px solid var(--primary-color);
-    padding: 1.5rem;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    margin: auto;
-    margin-top: 1rem;
-    margin-right: 1rem;
-}
-
-.link-button{
+.footer .social-link{
     display: flex;
-}
-
-.name-link{
-    margin-right: 0.5rem;
+    flex-direction: column;
 }

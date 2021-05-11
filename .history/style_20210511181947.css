@@ -157,13 +157,4 @@ hr{
     border-bottom-right-radius: 15px;
     margin: auto;
     margin-top: 1rem;
-    margin-right: 1rem;
-}
-
-.link-button{
-    display: flex;
-}
-
-.name-link{
-    margin-right: 0.5rem;
 }
