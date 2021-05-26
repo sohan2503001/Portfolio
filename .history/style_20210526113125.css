@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+:root{
+    --primary-color: #89A1EF;
+    --dark-gray: #4B5563;
+    --off-white: #315659;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    background-color: #FECEF1;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/** container **/
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/** links **/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /*margin: 1rem 0rem 1rem 0rem;*/
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    font-weight: bold;
+}
+
+/** lists **/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** navigation **/ 
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/**header **/
+
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-red);
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color)
+}
+
+/** section **/
+.section{
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 2rem;
+}
+
+.section h1{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.section p{
+    font-weight: bold;
+}
+
+/**footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+/**Projects**/
+.box-contain{
+    border: 2px solid var(--primary-color);
+    padding: 1.5rem;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.link-button{
+    display: flex;
+}
+
+.name-link{
+    margin-right: 0.5rem;
+}
