@@ -11,7 +11,6 @@ body {
     margin: auto;
     max-width: 800px;
     width: 100%;
-    background-color: var(--off-white);
 }
 
 hr{
@@ -46,7 +45,6 @@ hr{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     font-weight: bold;
-    background-color: white;
 }
 
 /** lists **/
@@ -121,7 +119,7 @@ hr{
 }
 
 .ow {
-    background-color: white;
+    background-color: var(--off-white);
 }
 
 .section p{
@@ -160,8 +158,8 @@ hr{
     border-bottom-right-radius: 15px;
     margin: auto;
     margin-top: 1rem;
-    margin-right: 5rem;
-    background-color: white; 
+    margin-right: 1rem;
+    background-color: var(--off-white);
 }
 
 .link-button{
