@@ -136,7 +136,7 @@ hr{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .footer .link{
@@ -145,8 +145,7 @@ hr{
 
 .footer .footer-header{
     font-weight: bold;
-    font-size: large;
-    padding-bottom: 10px;
+    font-size: large;padding-bottom: 10px;
 }
 
 .footer ul{
@@ -156,7 +155,7 @@ hr{
 /**Projects**/
 .box-contain{
     border: 2px solid var(--primary-color);
-    padding: 1rem;
+    padding: 1.5rem;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin: auto;
@@ -174,16 +173,13 @@ hr{
 }
 
 @media(max-width:700px){
-    /*Projects*/
     .box-contain{
         margin-left: 3rem;
-        padding: 1rem;
+        width: fit-content;
+        padding-left: 1rem;
     }
 
-    .pro-title{
-        font-size: 20px;
+    .box-contain .h1{
+        font-size: small;
     }
-
-    /*Home*/
-
 }
